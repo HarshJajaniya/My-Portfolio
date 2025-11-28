@@ -191,7 +191,7 @@ export function Contact() {
 
         <div className="text-center mt-16 pt-8 border-t-4 border-black">
           <p className="text-black uppercase tracking-wider">
-            © 2025 YOUR NAME. ALL RIGHTS RESERVED.
+            © 2025 HARSH JAJANIYA. ALL RIGHTS RESERVED.
           </p>
         </div>
       </div>

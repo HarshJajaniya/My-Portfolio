@@ -29,7 +29,7 @@ export function Hero() {
           <h1 className="text-black max-w-4xl">
             HI, I'M{" "}
             <span className="bg-yellow-400 px-4 border-4 border-black inline-block transform -rotate-1">
-              YOUR NAME
+              HARSH JAJANIYA
             </span>
             <br />
             <span className="block mt-4">FULL-STACK</span>
