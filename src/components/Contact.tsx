@@ -10,13 +10,22 @@ export function Contact() {
   });
 
   const handleSubmit = (e: React.FormEvent) => {
+    console.log(import.meta.env.VITE_EMAILJS_TEMPLATE_ID);
     e.preventDefault();
+
+    const templateParams = {
+      title: "Portfolio Contact Form", // REQUIRED (your template needs it)
+      name: formData.name,
+      email: formData.email,
+      message: formData.message,
+      time: new Date().toLocaleString(), // optional, safe
+    };
 
     emailjs
       .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID!,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID!,
-        formData,
+        templateParams,
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY!
       )
       .then(
@@ -24,7 +33,8 @@ export function Contact() {
           alert("Message sent successfully!");
           setFormData({ name: "", email: "", message: "" });
         },
-        () => {
+        (error) => {
+          console.error("EmailJS Error:", error);
           alert("Something went wrong. Please try again.");
         }
       );
