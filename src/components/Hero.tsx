@@ -83,13 +83,15 @@ export function Hero() {
               <Mail size={28} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1B2d06y_vmtnk6CkklS5cNUQitrSOKnOC/view?usp=sharing"
-              download
+              href="https://drive.google.com/file/d/1d9XcBUWW0bzb9CeatTjd-zR9qxtvNWx1/view?usp=sharing"
+              download="Harsh_Jajaniya_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 bg-yellow-400 border-4 border-black text-black 
-             hover:bg-black hover:text-white transition-all 
-             shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] 
-             hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] 
-             uppercase tracking-wider inline-block mt-6"
+    hover:bg-black hover:text-white transition-all 
+    shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] 
+    hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] 
+    uppercase tracking-wider inline-block mt-6"
             >
               Download My Resume
             </a>

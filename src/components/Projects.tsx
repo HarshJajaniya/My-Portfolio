@@ -4,6 +4,27 @@ import { ExternalLink, Github } from "lucide-react";
 export function Projects() {
   const projects = [
     {
+      title: "Nitrogen – Project Management System",
+      description:
+        "A full-stack project management platform with authentication, role-based task handling, and real-time data flow. Built using Next.js, Express.js, Prisma ORM, PostgreSQL, and AWS services including Cognito, Lambda, EC2, and API Gateway.",
+      image: "/assets/nitrogen.png", // add a screenshot/banner here
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "Express.js",
+        "Prisma",
+        "PostgreSQL",
+        "AWS Cognito",
+        "AWS Lambda",
+        "PM2",
+      ],
+      github: "https://github.com/HarshJajaniya/client.git",
+      githubBackend: "https://github.com/HarshJajaniya/nitrogen-backend.git",
+      demo: "https://main.d2zm25dwm40v68.amplifyapp.com/",
+      color: "bg-green-500",
+    },
+
+    {
       title: "SR-Asia Website Redesign",
       description:
         "A fully re-designed and developed corporate website using Next.js, Express.js, and MongoDB. Conducted UX research, created Figma prototypes, and optimized performance and accessibility.",
