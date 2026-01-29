@@ -7,6 +7,10 @@ Welcome to the codebase of my personal portfolio website, built to showcase my s
 🔗 **Live Website:** [https://harsh-jajaniya.me](https://harsh-jajaniya.me)
 🔗 **GitHub Repo:** *(your repo link here)*
 
+![CI](https://github.com/HarshJajaniya/My-Portfolio/actions/workflows/ci.yml/badge.svg)
+![CD](https://github.com/HarshJajaniya/My-Portfolio/actions/workflows/deploy.yml/badge.svg)
+
+
 ---
 
 ## 🚀 Tech Stack
