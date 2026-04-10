@@ -20,7 +20,8 @@ export function Projects() {
       ],
       github: "https://github.com/HarshJajaniya/client.git",
       githubBackend: "https://github.com/HarshJajaniya/nitrogen-backend.git",
-      demo: "https://main.d2zm25dwm40v68.amplifyapp.com/",
+      // demo: "https://main.d2zm25dwm40v68.amplifyapp.com/",
+      demo: "https://client-8wg8.vercel.app/",
       color: "bg-green-500",
     },
 
