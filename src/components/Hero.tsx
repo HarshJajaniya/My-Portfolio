@@ -83,7 +83,7 @@ export function Hero() {
               <Mail size={28} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1KrUrCY-p5JpeZUxSGcZ-k_sMHyFb73uz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1gu8QBeZi1VTz0JysiymwZjzhfxEUZLut/view?usp=sharing"
               download="Harsh_Jajaniya_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
