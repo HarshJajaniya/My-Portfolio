@@ -4,6 +4,26 @@ import { ExternalLink, Github } from "lucide-react";
 export function Projects() {
   const projects = [
     {
+      title: "MeetmomAI – Google Meet AI Companion and Meeting Assistant",
+      description:"A full-stack AI-powered meeting assistant built with Next.js, Express.js, Prisma ORM, PostgreSQL, and AWS services. Provides real-time transcription, action item extraction, and meeting summaries to enhance productivity and collaboration.",
+      image: "/assets/meetmomai.png", // add a screenshot/banner here
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "Express.js",
+        "Prisma",
+        "PostgreSQL",
+        "Google authentication",
+        "openclawdev API",
+        "whisper API",
+      ],
+      github: "https://github.com/HarshJajaniya/frontend.git",
+      githubBackend: "https://github.com/HarshJajaniya/meetmom-backend.git",
+      // demo: "https://main.d2zm25dwm40v68.amplifyapp.com/",
+      demo: "https://frontend-rho-one-95.vercel.app/",
+      accent: "#ec4899",
+    },
+    {
       title: "Nitrogen – Project Management System",
       description:
         "A full-stack project management platform with authentication, role-based task handling, and real-time data flow. Built using Next.js, Express.js, Prisma ORM, PostgreSQL, and AWS services including Cognito, Lambda, EC2, and API Gateway.",
@@ -22,7 +42,7 @@ export function Projects() {
       githubBackend: "https://github.com/HarshJajaniya/nitrogen-backend.git",
       // demo: "https://main.d2zm25dwm40v68.amplifyapp.com/",
       demo: "https://client-8wg8.vercel.app/",
-      color: "bg-green-500",
+      accent: "#22c55e",
     },
 
     {
@@ -33,7 +53,7 @@ export function Projects() {
       tags: ["Next.js", "Express.js", "MongoDB", "Figma", "UX Research"],
       github: "https://github.com/HarshJajaniya/sr-asia",
       demo: "https://sr-asia.org",
-      color: "bg-blue-500",
+      accent: "#3b82f6",
     },
 
     {
@@ -44,7 +64,7 @@ export function Projects() {
       tags: ["Next.js", "MongoDB", "Razorpay", "NextAuth.js", "Tailwind"],
       github: "https://github.com/HarshJajaniya/get_me_a_chai",
       demo: "https://get-me-a-chai-eta-ten.vercel.app/",
-      color: "bg-yellow-400",
+      accent: "#facc15",
     },
 
     {
@@ -55,7 +75,7 @@ export function Projects() {
       tags: ["Next.js", "TypeScript", "Tailwind", "API Integration"],
       github: "https://github.com/HarshJajaniya/my-app",
       demo: "https://my-app-hy3v.vercel.app/",
-      color: "bg-red-500",
+      accent: "#ef4444",
     },
   ];
 
@@ -88,13 +108,15 @@ export function Projects() {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div
-                  className={`absolute inset-0 ${project.color} opacity-0 group-hover:opacity-30 transition-opacity mix-blend-multiply`}
+                  className="absolute inset-0 opacity-0 group-hover:opacity-30 transition-opacity mix-blend-multiply"
+                  style={{ backgroundColor: project.accent }}
                 ></div>
               </div>
 
               <div className="p-6">
                 <div
-                  className={`${project.color} border-2 border-black px-3 py-1 inline-block mb-4`}
+                  className="border-2 border-black px-3 py-1 inline-block mb-4"
+                  style={{ backgroundColor: project.accent }}
                 >
                   <h4 className="text-black uppercase tracking-wide">
                     {project.title}
