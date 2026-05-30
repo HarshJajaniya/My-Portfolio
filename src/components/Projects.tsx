@@ -13,6 +13,8 @@ export function Projects() {
         "Express.js",
         "Prisma",
         "PostgreSQL",
+        "Docker",
+        "Docker Compose",
         "Google authentication",
         "openclawdev API",
         "whisper API",
